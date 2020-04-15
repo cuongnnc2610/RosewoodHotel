@@ -1,0 +1,26 @@
+.carousel li.loading,
+.pt28 .pt28_gallery img.loading,
+.highres.t31a .ss section,
+#loading {
+  background-image: url(../images/hotel_georgia_vancouver/loader.gif);
+}
+body.pt1 .black-theme .intro:before,
+body.pt1 .white-theme .intro:before {
+  width: 73px !important;
+  height: 73px !important;
+  margin-bottom: 7px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+body.pt1 .white-theme .intro:before {
+  background: url(../images/hotel_georgia_vancouver/crest_w.png);
+}
+body.pt1 .black-theme .intro:before {
+  background: url(../images/hotel_georgia_vancouver/crest_b.png);
+}
+.mobile.pt1 .white-theme .intro:before {
+  width: 73px !important;
+  height: 73px !important;
+  background-position: 0 0 !important;
+  background-image: url(../images/hotel_georgia_vancouver/crest_b.png);
+}
