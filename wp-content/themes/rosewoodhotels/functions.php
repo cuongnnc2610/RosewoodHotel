@@ -21,8 +21,6 @@ function load_scripts()
 	wp_register_script('fontawesome', 'https://kit.fontawesome.com/a076d05399.js', array(), 1, 1, 1);
 	wp_enqueue_script('fontawesome');
 
-	//wp_deregister_script('jquery');
-	//wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js', array(), null, true);
 	wp_enqueue_script('jquery');
 
 	wp_register_script('VisitorIdentification', get_template_directory_uri() . '/layouts/system/VisitorIdentification.js', array(), 1, 1, 1);
@@ -30,6 +28,10 @@ function load_scripts()
     
     wp_register_script('scripts', get_template_directory_uri() . '/files/rw_hotels_and_resorts/js/scripts.desktop.min.js?201910', array(), 1, 1, 1);
     wp_enqueue_script('scripts');
+
+	wp_register_script('non-core-scripts', get_template_directory_uri() . '/files/rw_hotels_and_resorts/js/scripts.non-core.desktop.min.js', array(), 1, 1, 1);
+    wp_enqueue_script('non-core-scripts');
+
 
 }
 add_action('wp_enqueue_scripts', 'load_scripts');

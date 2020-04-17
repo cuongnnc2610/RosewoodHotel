@@ -2,7 +2,7 @@
             <div class="desktop-footer">
                 <nav>
                     <div class="share-wrapper fixed_width">
-                        <?php $social_media = get_field('social_media');?>
+                        <?php $social_media = get_field('social_media', 70);?>
                         <div>
                             <strong><?php echo $social_media['title'];?></strong>&nbsp;<i class="fa fa-share-alt" aria-hidden="true"></i>&nbsp;&nbsp;
                         </div>
@@ -31,7 +31,7 @@
                 </nav>
                 <div class="container fixed_width">
                     <div class="col reserve-content">
-                        <?php $room_reservations = get_field('room_reservations');?>
+                        <?php $room_reservations = get_field('room_reservations', 70);?>
                         <div class="title-h5">
                             <strong><?php echo $room_reservations['title'];?></strong>
                         </div>
@@ -52,7 +52,7 @@
                             <a href="#pop-reservation" class="_lightbox with-arrow gtm-footer"><?php echo $room_reservations['section_pop_up']['title'];?></a>
                         <?php endif;?>
                         <div class="buttons-wrapper">
-                            <?php $booking_section = get_field('booking_section');?>
+                            <?php $booking_section = get_field('booking_section', 70);?>
                             <a class="button light gtm-footer" href="<?php echo $booking_section['booking_link'];?>" target="_self"><?php echo $booking_section['action_name'];?></a>
                             <?php 
                                 $page = get_page_by_path( "contact-us" , OBJECT );
@@ -83,7 +83,7 @@
                         <a data-target="#residences" class="bold gtm-footer" href="/en/residences">Residences</a>
                     </div>-->
 
-                    <?php $contact_content = get_field('contact_content');?>
+                    <?php $contact_content = get_field('contact_content', 70);?>
                     <div class="col contact-conent">
                         <div class="upper-wrapper">
                             <div class="image-wrapper img-bg" style="background-image:url('<?php echo $contact_content['image']['url'];?>');"></div>
@@ -113,7 +113,7 @@
                     <div class="inner-content">
                         <div class="site-info">
                             <?php 
-                                $site_info = get_field('site_info');
+                                $site_info = get_field('site_info', 70);
                                 foreach ($site_info as $site):
                             ?>
                                 <div class="item">
@@ -121,7 +121,7 @@
                                 </div>
                             <?php endforeach;?>
                         </div>
-                        <?php $copyright = get_field('copyright');?>
+                        <?php $copyright = get_field('copyright', 70);?>
                         <div class="copyright"><?php echo $copyright;?></div>
                     </div>
                 </div>
@@ -134,19 +134,19 @@
                             <div class="share-block">
                                 <div>
                                     <?php if (isset($social_media['wechat'])): ?>
-                                        <a href="<?php echo $social_media['wechat'];?>" target="_blank"><span class="icon-wechat"></span></a>
+                                        <a href="<?php echo $social_media['wechat'];?>" target="_blank"><i class="fab fa-wechat"></i></span></a>
                                     <?php endif;?> 
                                     <?php if (isset($social_media['facebook'])): ?>
-                                        <a href="<?php echo $social_media['facebook'];?>" target="_blank"><span class="icon-wechat"></span></a>
+                                        <a href="<?php echo $social_media['facebook'];?>" target="_blank"><i class="fab fa-facebook"></i></span></a>
                                     <?php endif;?> 
                                     <?php if (isset($social_media['twitter'])): ?>
-                                        <a href="<?php echo $social_media['twitter'];?>" target="_blank"><span class="icon-wechat"></span></a>
+                                        <a href="<?php echo $social_media['twitter'];?>" target="_blank"><i class="fab fa-twitter"></i></a>
                                     <?php endif;?> 
                                     <?php if (isset($social_media['pinterest'])): ?>
-                                        <a href="<?php echo $social_media['pinterest'];?>" target="_blank"><span class="icon-wechat"></span></a>
+                                        <a href="<?php echo $social_media['pinterest'];?>" target="_blank"><i class="fab fa-pinterest"></i></a>
                                     <?php endif;?> 
                                     <?php if (isset($social_media['instagram'])): ?>
-                                        <a href="<?php echo $social_media['instagram'];?>" target="_blank"><span class="icon-wechat"></span></a>
+                                        <a href="<?php echo $social_media['instagram'];?>" target="_blank"><i class="fab fa-instagram"></i></a>
                                     <?php endif;?>
                                 </div>
                             </div>
@@ -199,7 +199,7 @@
                         <?php endif;?>
                     </div>
                 </div>
-                <?php $languages = get_field('languages');?>
+                <?php $languages = get_field('languages', 70);?>
                 <div class="lang-section">
                     <div class="inner-wrapper">
                         <?php 
@@ -324,7 +324,7 @@
 
 
             <?php 
-                $rosewood_limited_edition = get_field('rosewood_limited_edition');
+                $rosewood_limited_edition = get_field('rosewood_limited_edition', 70);
                 $poster = $rosewood_limited_edition['poster']['url'];
                 $video = $rosewood_limited_edition['mp4_video']['url'];
             ?>

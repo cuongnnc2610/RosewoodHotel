@@ -87,41 +87,40 @@
         <script>
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-57LCPQC');
         </script>
-        <script src="wp-content/themes/rosewoodhotels/files/rw_hotels_and_resorts/js/scripts.non-core.desktop.min.js" defer=""></script>
         <script type="text/javascript">
-        window._vwo_code = window._vwo_code || (function(){
-        var account_id=428368,
-        settings_tolerance=4000,
-        library_tolerance=4000,
-        use_existing_jquery=false,
-        is_spa=1,
-        hide_element='body',
-        /* DO NOT EDIT BELOW THIS LINE */
-        f=false,d=document,code={use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){
-        window.settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b=hide_element?hide_element+'{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}':'',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&f='+(+is_spa)+'&r='+Math.random());return settings_timer; }};window._vwo_settings_timer = code.init(); return code; }());
+            window._vwo_code = window._vwo_code || (function(){
+                var account_id=428368,
+                settings_tolerance=4000,
+                library_tolerance=4000,
+                use_existing_jquery=false,
+                is_spa=1,
+                hide_element='body',
+                /* DO NOT EDIT BELOW THIS LINE */
+                f=false,d=document,code={use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){
+                window.settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b=hide_element?hide_element+'{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}':'',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&f='+(+is_spa)+'&r='+Math.random());return settings_timer; }};window._vwo_settings_timer = code.init(); return code; 
+            }());
         </script>
         <script>
             !function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="PRH7V-5E9CM-9GDK5-G2TP7-QNM4H",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,o,_,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",_=document.getElementsByTagName("script")[0],_.parentNode.insertBefore(r,_);try{o=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",o=r.contentWindow.document}o.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"PRH7V-5E9CM-9GDK5-G2TP7-QNM4H",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},o.write("<bo"+'dy onload="document._l();">'),o.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="odc54yyxa7jkaxuqf3ua-f-69d68badc-clientnsv4-s.akamaihd.net",i={"ak.v":"27","ak.cp":"239363","ak.ai":parseInt("143045",10),"ak.ol":"0","ak.cr":37,"ak.ipv":4,"ak.proto":"h2","ak.rid":"390b11","ak.r":25990,"ak.a2":e,"ak.m":"b","ak.n":"essl","ak.bpcip":"112.197.222.0","ak.cport":51712,"ak.gh":"104.84.150.105","ak.quicv":"","ak.tlsv":"tls1.2","ak.0rtt":"","ak.csrc":"-","ak.acc":"","ak.t":"1586507496","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==rjxUvB21lM8Pw0Mu8fS2DcqJDlpfVIl0XdYFGRYMkuYz4eMadPHjtpzQalQVid7c9PqVgPAAptVzXe5KviwIF9ZKRxLZo8xxDf1a7gNMEeEFo+/zGkMoKdCWKwq7slpJHALoe6hiHcWHVg27slS5vmr9QUCqLNrYtjE9DKiOiwUAavSxXDsjqqgp0l1w68/q+pMIIPrcVO0kwCEzX9KoH5Ae0l9Y8l6Gkc2ANdOgVNY9Ces7KlmxTtMigCai6gvlLqaGcHl1nDtXwdyoEJHZICSNCfU6gVf9vMRFXn6jBue2azA8NZxkuJwgzm2ArlBlTAH9KOPrY2IOR8uRYkl1W1T0LIUiy20LwU4EGLqnnfAzZLgDwlu6RzlraAH57DFYehj/eMii0LboKkjMSp/Bua5HP7kn5s/IfuP8kJwGZzo=","ak.pv":"40"};if(""!==t)i["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))i["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);
         </script>
     </head>
-    <body id="MasterPageBodyTag" class="r_t1 en">
-        <form method="post" action="/en/default" id="mainform">
+    <body id="MasterPageBodyTag" class="r_t2a en">
+        <form method="post" action="/en/luxury-hotels-and-resorts" id="mainform">
             <div class="aspNetHidden">
-                <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="cqcVMEOKoPh1ug+MkVoPvnVzLK6QaZVnUk+Ewhqvy/HD/u8unx+qxY1i6udsrnjx5OmxZyjwhKF/9ZQ/cQIWgQX51rC7zxPIfUaxpaVPrzhjsJwws02gvX76FKOhclF8ymjwe0g3Ynxt3Z+ewQdnwEQGLeAz6tiSUxvUmYkRrMw=" />
+                <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="WUQUdk2U7pjAEbhZBkaGlfDcW7KR5abz2znnw1OrJd6Dz0SDY/ueWtFzxH1oapzO87x4RTYOLiIjst1iXf36W5gbJD8RaDtILgchNgG5Uhv6nKyHqOrFLZxgF2OiMOT9dTtlF4NZOwuy9hyX6cxQJZ8PDjfruDDIRK12BEn3jXo=" />
             </div>
             <div class="aspNetHidden">
                 <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="44F0C7B7" />
             </div>
         </form>
         <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-9VW7" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-9VW7" height="0" width="0" style="display:none;visibility:hidden"></iframe>
         </noscript>
         <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57LCPQC" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57LCPQC" height="0" width="0" style="display:none;visibility:hidden"></iframe>
         </noscript>
         <div id="loading"></div>
-        <header class="light-theme mobile-menu-show no-hover" data-templatepfile="rw-destop-group-headerxslt">
-
+        <header class="dark-theme mobile-menu-show no-hover" data-templatepfile="rw-destop-group-headerxslt">
             <?php 
                 if(get_field('announcement')):
                     $announcement = get_field('announcement');
@@ -141,7 +140,7 @@
             <div class="desktop-menu">
                 <div class="header-inner fixed_width light-theme-content">
                     <div class="header-top">
-                        <a href="<?php echo get_home_url(); ?>" class="brand-logo gtm-header" style="background-image:url('<?php echo $brand_logo['image170x59_1']['url'];?>')" aria-label="<?php echo $website_title;?>"><?php echo $website_title;?></a>
+                        <a href="<?php echo get_home_url(); ?>" class="brand-logo gtm-header" style="background-image:url('<?php echo $brand_logo['image170x59_1']['url'];?>')" aria-label="Luxury Hotels and Luxury Resorts | Rosewood Hotels">Luxury Hotels and Luxury Resorts | Rosewood Hotels</a>
                         <div class="buttons-wrapper">
                             <div class="lang-dropdown-wrapper">
                                 <div class="lang-dropdown">
@@ -153,13 +152,12 @@
                                         ?>
                                             <a href="<?php echo $language['link'];?>" data-lang="sc" class="gtm-header"><?php echo $language['language'];?></a>
                                         <?php endforeach;?>
-                                    </div>                                    
+                                    </div> 
                                 </div>
                             </div>
                             <a data-gtm-button-attribute="main nav bar" class="button bold dynamic-width gtm-header" href="<?php echo $booking_section['booking_link'];?>" target="_self"><?php echo $booking_section['action_name'];?></a>
                         </div>
                     </div>
-
                     <?php
                         wp_nav_menu(
                             array(
@@ -171,14 +169,12 @@
                             )
                         )
                     ?>
-
                     <!--<ul class="header-menu first-level" role="menubar" aria-label="main menu">
-                        <li class="without-sub-nav " role="menuitem" aria-haspopup="false">
+                        <li class="without-sub-nav active" role="menuitem" aria-haspopup="false">
                             <a data-target="#luxury_hotels_and_resorts" class="gtm-nav" data-dropdown="true" href="/en/luxury-hotels-and-resorts">Find a Hotel</a>
                         </li>
                         <li class=" " role="menuitem" aria-haspopup="true" aria-controls="Meetings-&amp;-Events-light-theme-content">
-                            <a data-target="#meetings_and_events" class="gtm-nav" data-dropdown="true" href="/en/meetings-and-events">Meetings & Events</a>
-                            <ul class="header-menu second-level" role="menu" id="Meetings-&amp;-Events-light-theme-content">
+                            <a data-target="#meetings_and_events" class="gtm-nav" data-dropdown="true" href="/en/meetings-and-events">Meetings & Events</a><ul class="header-menu second-level" role="menu" id="Meetings-&amp;-Events-light-theme-content">
                                 <li role="menuitem">
                                     <a class="gtm-nav" href="/en/meetings-and-events">Find a Venue</a>
                                 </li>
@@ -197,74 +193,19 @@
                             </ul>
                         </li>
                         <li class=" " role="menuitem" aria-haspopup="true" aria-controls="Weddings-light-theme-content">
-                            <a data-target="#luxury_weddings" class="gtm-nav" data-dropdown="true" href="/en/luxury-weddings">Weddings</a>
-                            <ul class="header-menu second-level" role="menu" id="Weddings-light-theme-content">
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/luxury-weddings">Overview</a>
-                                </li>
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/luxury-weddings/perfect-match">Offer</a>
-                                </li>
-                            </ul>
+                            <a data-target="#luxury_weddings" class="gtm-nav" data-dropdown="true" href="/en/luxury-weddings">Weddings</a><ul class="header-menu second-level" role="menu" id="Weddings-light-theme-content"><li role="menuitem"><a class="gtm-nav" href="/en/luxury-weddings">Overview</a></li><li role="menuitem"><a class="gtm-nav" href="/en/luxury-weddings/perfect-match">Offer</a></li></ul>
                         </li>
                         <li class=" " role="menuitem" aria-haspopup="true" aria-controls="Interests-light-theme-content">
-                            <a data-target="#interests" class="gtm-nav" data-dropdown="true" href="/en/interests">Interests</a>
-                            <ul class="header-menu second-level" role="menu" id="Interests-light-theme-content">
-                                <li role="menuitem">
-                                    <a rel="noopener noreferrer" class="gtm-nav" href="https://www.rosewoodhotels.com/conversations" target="_blank">Rosewood Conversations</a>
-                                </li>
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/interests/luxury-spa-resorts-and-hotels">Wellness</a>
-                                </li>
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/interests/luxury-golf-vacations">Golf</a>
-                                </li>
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/interests/luxury-family-hotels-and-resorts">Family</a>
-                                </li>
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/interests/luxury-beach-resorts-and-hotels">Beach</a>
-                                </li>
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/interests/a-sense-of-taste">A Sense of Taste</a>
-                                </li>
-                            </ul>
+                            <a data-target="#interests" class="gtm-nav" data-dropdown="true" href="/en/interests">Interests</a><ul class="header-menu second-level" role="menu" id="Interests-light-theme-content"><li role="menuitem"><a rel="noopener noreferrer" class="gtm-nav" href="https://www.rosewoodhotels.com/conversations" target="_blank">Rosewood Conversations</a></li><li role="menuitem"><a class="gtm-nav" href="/en/interests/luxury-spa-resorts-and-hotels">Wellness</a></li><li role="menuitem"><a class="gtm-nav" href="/en/interests/luxury-golf-vacations">Golf</a></li><li role="menuitem"><a class="gtm-nav" href="/en/interests/luxury-family-hotels-and-resorts">Family</a></li><li role="menuitem"><a class="gtm-nav" href="/en/interests/luxury-beach-resorts-and-hotels">Beach</a></li><li role="menuitem"><a class="gtm-nav" href="/en/interests/a-sense-of-taste">A Sense of Taste</a></li></ul>
                         </li>
                         <li class=" " role="menuitem" aria-haspopup="true" aria-controls="Offers-light-theme-content">
-                            <a data-target="#luxury_hotel_offers" class="gtm-nav" data-dropdown="true" href="/en/luxury-hotel-offers">Offers</a>
-                            <ul class="header-menu second-level" role="menu" id="Offers-light-theme-content">
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/limitededition">Rosewood Limited Edition</a>
-                                </li>
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/luxury-hotel-offers">LUXURY HOTEL OFFERS</a>
-                                </li>
-                            </ul>
+                            <a data-target="#luxury_hotel_offers" class="gtm-nav" data-dropdown="true" href="/en/luxury-hotel-offers">Offers</a><ul class="header-menu second-level" role="menu" id="Offers-light-theme-content"><li role="menuitem"><a class="gtm-nav" href="/en/limitededition">Rosewood Limited Edition</a></li><li role="menuitem"><a class="gtm-nav" href="/en/luxury-hotel-offers">LUXURY HOTEL OFFERS</a></li></ul>
                         </li>
                         <li class=" " role="menuitem" aria-haspopup="true" aria-controls="Gallery-light-theme-content">
-                            <a data-target="#gallery" class="gtm-nav" data-dropdown="true" href="/en/gallery">Gallery</a>
-                            <ul class="header-menu second-level" role="menu" id="Gallery-light-theme-content">
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/gallery">Hotel Gallery</a>
-                                </li>
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/gallery-rosewood-regulars">Rosewood Regulars</a>
-                                </li>
-                            </ul>
+                            <a data-target="#gallery" class="gtm-nav" data-dropdown="true" href="/en/gallery">Gallery</a><ul class="header-menu second-level" role="menu" id="Gallery-light-theme-content"><li role="menuitem"><a class="gtm-nav" href="/en/gallery">Hotel Gallery</a></li><li role="menuitem"><a class="gtm-nav" href="/en/gallery-rosewood-regulars">Rosewood Regulars</a></li></ul>
                         </li>
                         <li class=" " role="menuitem" aria-haspopup="true" aria-controls="Residences-light-theme-content">
-                            <a data-target="#residences" class="gtm-nav" data-dropdown="true" href="/en/residences">Residences</a>
-                            <ul class="header-menu second-level" role="menu" id="Residences-light-theme-content">
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/residences/residential-rentals">residential rentals</a>
-                                </li>
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/residences/serviced-apartments">serviced apartments</a>
-                                </li>
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/residences/ownership">ownership</a>
-                                </li>
-                            </ul>
+                            <a data-target="#residences" class="gtm-nav" data-dropdown="true" href="/en/residences">Residences</a><ul class="header-menu second-level" role="menu" id="Residences-light-theme-content"><li role="menuitem"><a class="gtm-nav" href="/en/residences/residential-rentals">residential rentals</a></li><li role="menuitem"><a class="gtm-nav" href="/en/residences/serviced-apartments">serviced apartments</a></li><li role="menuitem"><a class="gtm-nav" href="/en/residences/ownership">ownership</a></li></ul>
                         </li>
                     </ul>-->
                 </div>
@@ -299,98 +240,26 @@
                         )
                     ?>
                     <!--<ul class="header-menu first-level" role="menubar" aria-label="main menu">
-                        <li class="without-sub-nav " role="menuitem" aria-haspopup="false">
+                        <li class="without-sub-nav active" role="menuitem" aria-haspopup="false">
                             <a data-target="#luxury_hotels_and_resorts" class="gtm-nav" data-dropdown="true" href="/en/luxury-hotels-and-resorts">Find a Hotel</a>
                         </li>
                         <li class=" " role="menuitem" aria-haspopup="true" aria-controls="Meetings-&amp;-Events-dark-theme-conent">
-                            <a data-target="#meetings_and_events" class="gtm-nav" data-dropdown="true" href="/en/meetings-and-events">Meetings & Events</a>
-                            <ul class="header-menu second-level" role="menu" id="Meetings-&amp;-Events-dark-theme-conent">
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/meetings-and-events">Find a Venue</a>
-                                </li>
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/meetings-and-events/rosewood-rest-assured">Rosewood Rest Assured</a>
-                                </li>
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/meetings-and-events/group-offers">GROUP OFFERS</a>
-                                </li>
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/meetings-and-events/global-giveback">GLOBAL GIVEBACK</a>
-                                </li>
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/meetings-and-events/same-time-next-year">SAME TIME NEXT YEAR</a>
-                                </li>
-                            </ul>
+                            <a data-target="#meetings_and_events" class="gtm-nav" data-dropdown="true" href="/en/meetings-and-events">Meetings & Events</a><ul class="header-menu second-level" role="menu" id="Meetings-&amp;-Events-dark-theme-conent"><li role="menuitem"><a class="gtm-nav" href="/en/meetings-and-events">Find a Venue</a></li><li role="menuitem"><a class="gtm-nav" href="/en/meetings-and-events/rosewood-rest-assured">Rosewood Rest Assured</a></li><li role="menuitem"><a class="gtm-nav" href="/en/meetings-and-events/group-offers">GROUP OFFERS</a></li><li role="menuitem"><a class="gtm-nav" href="/en/meetings-and-events/global-giveback">GLOBAL GIVEBACK</a></li><li role="menuitem"><a class="gtm-nav" href="/en/meetings-and-events/same-time-next-year">SAME TIME NEXT YEAR</a></li></ul>
                         </li>
                         <li class=" " role="menuitem" aria-haspopup="true" aria-controls="Weddings-dark-theme-conent">
-                            <a data-target="#luxury_weddings" class="gtm-nav" data-dropdown="true" href="/en/luxury-weddings">Weddings</a>
-                            <ul class="header-menu second-level" role="menu" id="Weddings-dark-theme-conent">
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/luxury-weddings">Overview</a>
-                                </li>
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/luxury-weddings/perfect-match">Offer</a>
-                                </li>
-                            </ul>
+                            <a data-target="#luxury_weddings" class="gtm-nav" data-dropdown="true" href="/en/luxury-weddings">Weddings</a><ul class="header-menu second-level" role="menu" id="Weddings-dark-theme-conent"><li role="menuitem"><a class="gtm-nav" href="/en/luxury-weddings">Overview</a></li><li role="menuitem"><a class="gtm-nav" href="/en/luxury-weddings/perfect-match">Offer</a></li></ul>
                         </li>
                         <li class=" " role="menuitem" aria-haspopup="true" aria-controls="Interests-dark-theme-conent">
-                            <a data-target="#interests" class="gtm-nav" data-dropdown="true" href="/en/interests">Interests</a>
-                            <ul class="header-menu second-level" role="menu" id="Interests-dark-theme-conent">
-                                <li role="menuitem">
-                                    <a rel="noopener noreferrer" class="gtm-nav" href="https://www.rosewoodhotels.com/conversations" target="_blank">Rosewood Conversations</a>
-                                </li>
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/interests/luxury-spa-resorts-and-hotels">Wellness</a>
-                                </li>
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/interests/luxury-golf-vacations">Golf</a>
-                                </li>
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/interests/luxury-family-hotels-and-resorts">Family</a>
-                                </li>
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/interests/luxury-beach-resorts-and-hotels">Beach</a>
-                                </li>
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/interests/a-sense-of-taste">A Sense of Taste</a>
-                                </li>
-                            </ul>
+                            <a data-target="#interests" class="gtm-nav" data-dropdown="true" href="/en/interests">Interests</a><ul class="header-menu second-level" role="menu" id="Interests-dark-theme-conent"><li role="menuitem"><a rel="noopener noreferrer" class="gtm-nav" href="https://www.rosewoodhotels.com/conversations" target="_blank">Rosewood Conversations</a></li><li role="menuitem"><a class="gtm-nav" href="/en/interests/luxury-spa-resorts-and-hotels">Wellness</a></li><li role="menuitem"><a class="gtm-nav" href="/en/interests/luxury-golf-vacations">Golf</a></li><li role="menuitem"><a class="gtm-nav" href="/en/interests/luxury-family-hotels-and-resorts">Family</a></li><li role="menuitem"><a class="gtm-nav" href="/en/interests/luxury-beach-resorts-and-hotels">Beach</a></li><li role="menuitem"><a class="gtm-nav" href="/en/interests/a-sense-of-taste">A Sense of Taste</a></li></ul>
                         </li>
                         <li class=" " role="menuitem" aria-haspopup="true" aria-controls="Offers-dark-theme-conent">
-                            <a data-target="#luxury_hotel_offers" class="gtm-nav" data-dropdown="true" href="/en/luxury-hotel-offers">Offers</a>
-                            <ul class="header-menu second-level" role="menu" id="Offers-dark-theme-conent">
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/limitededition">Rosewood Limited Edition</a>
-                                </li>
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/luxury-hotel-offers">LUXURY HOTEL OFFERS</a>
-                                </li>
-                            </ul>
+                            <a data-target="#luxury_hotel_offers" class="gtm-nav" data-dropdown="true" href="/en/luxury-hotel-offers">Offers</a><ul class="header-menu second-level" role="menu" id="Offers-dark-theme-conent"><li role="menuitem"><a class="gtm-nav" href="/en/limitededition">Rosewood Limited Edition</a></li><li role="menuitem"><a class="gtm-nav" href="/en/luxury-hotel-offers">LUXURY HOTEL OFFERS</a></li></ul>
                         </li>
                         <li class=" " role="menuitem" aria-haspopup="true" aria-controls="Gallery-dark-theme-conent">
-                            <a data-target="#gallery" class="gtm-nav" data-dropdown="true" href="/en/gallery">Gallery</a>
-                            <ul class="header-menu second-level" role="menu" id="Gallery-dark-theme-conent">
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/gallery">Hotel Gallery</a>
-                                </li>
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/gallery-rosewood-regulars">Rosewood Regulars</a>
-                                </li>
-                            </ul>
+                            <a data-target="#gallery" class="gtm-nav" data-dropdown="true" href="/en/gallery">Gallery</a><ul class="header-menu second-level" role="menu" id="Gallery-dark-theme-conent"><li role="menuitem"><a class="gtm-nav" href="/en/gallery">Hotel Gallery</a></li><li role="menuitem"><a class="gtm-nav" href="/en/gallery-rosewood-regulars">Rosewood Regulars</a></li></ul>
                         </li>
                         <li class=" " role="menuitem" aria-haspopup="true" aria-controls="Residences-dark-theme-conent">
-                            <a data-target="#residences" class="gtm-nav" data-dropdown="true" href="/en/residences">Residences</a>
-                            <ul class="header-menu second-level" role="menu" id="Residences-dark-theme-conent">
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/residences/residential-rentals">residential rentals</a>
-                                </li>
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/residences/serviced-apartments">serviced apartments</a>
-                                </li>
-                                <li role="menuitem">
-                                    <a class="gtm-nav" href="/en/residences/ownership">ownership</a>
-                                </li>
-                            </ul>
+                            <a data-target="#residences" class="gtm-nav" data-dropdown="true" href="/en/residences">Residences</a><ul class="header-menu second-level" role="menu" id="Residences-dark-theme-conent"><li role="menuitem"><a class="gtm-nav" href="/en/residences/residential-rentals">residential rentals</a></li><li role="menuitem"><a class="gtm-nav" href="/en/residences/serviced-apartments">serviced apartments</a></li><li role="menuitem"><a class="gtm-nav" href="/en/residences/ownership">ownership</a></li></ul>
                         </li>
                         <li role="menuitem" aria-haspopup="true" aria-controls="Check rates">
                             <a data-gtm-button-attribute="slim bar" class="button-appear button bold dynamic-width gtm-header" href="https://gc.synxis.com/rez.aspx?Chain=5159" target="_self">Check Rates</a>
@@ -408,7 +277,6 @@
                     <a href="<?php echo get_home_url(); ?>" class="brand-logo-mobile gtm-header" style="background-image:url('<?php echo $brand_logo['image368x128']['url'];?>')" aria-label="Luxury Hotels and Luxury Resorts | Rosewood Hotels"><?php echo $website_title;?></a>
                     <a class="button dynamic-width book-button gtm-header" href="<?php echo $booking_section['booking_link'];?>" target="_self"><?php echo $booking_section['action_name'];?></a>
                 </div>
-
                 <div class="slide-section group">
                     <?php
                         wp_nav_menu(
