@@ -1,6 +1,8 @@
 <?php 
     /*Template Name: Map View */
-     get_header('secondary');
+    $GLOBALS['ROSEWOOD'] = array();
+    $GLOBALS['ROSEWOOD']['boby_class'] = "r_t2b en";
+     get_header('mapview');
 ?> 
 <div class="rw-main-container container" id="content">
     <nav class="bolder">
@@ -10,7 +12,7 @@
             <h1 class="nav-item"><?php echo $navigation['title_2'];?></h1>
         </div>
     </nav>
-    <div class="hotel hidden" data-destination="in_the_city,&#xD;&#xA;" data-experience="spa,&#xD;&#xA; health,&#xD;&#xA; wine_and_cuisine,&#xD;&#xA; business,&#xD;&#xA;" data-lat="40.77" data-lng="-73.96" data-src="~/media/F70006EAD8984D3B98A8396667AD9A7B.ashx" data-alt="The Carlyle, A Rosewood Hotel" data-exist="true">
+    <!--<div class="hotel hidden" data-destination="in_the_city,&#xD;&#xA;" data-experience="spa,&#xD;&#xA; health,&#xD;&#xA; wine_and_cuisine,&#xD;&#xA; business,&#xD;&#xA;" data-lat="40.77" data-lng="-73.96" data-src="~/media/F70006EAD8984D3B98A8396667AD9A7B.ashx" data-alt="The Carlyle, A Rosewood Hotel" data-exist="true">
         <div class="map-popup-container">
             <img src="" alt="" />
             <div class="map-popup-text">
@@ -210,7 +212,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <div id="map-content" style="position: relative; overflow: hidden;">
         <div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);">
             <div class="gm-style" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;">

@@ -379,6 +379,9 @@
             <div class="cookies-consent__container">By continuing to browse rosewoodhotels.com, you will be agreeing to the <a href="#" class="privacy-policy" target="_blank">Privacy Policy</a>, and the <a href="#" class="cookies-policy" target="_blank">Use of Cookies Policy</a> while using the website.<span class="cookies-consent__close"></span></div>
         </div>-->
         <?php wp_footer();?>
+        <script>__gDatePickerRegion = "";</script>
+        <script src="<?php echo get_bloginfo('template_url'); ?>/files/rosewood_hotels_and_resorts/js/plugins.min.js"></script>
+        <script src="<?php echo get_bloginfo('template_url'); ?>/files/rosewood_hotels_and_resorts/group/js/all.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
                 /* Top Bar Menu */

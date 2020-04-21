@@ -1,5 +1,6 @@
 <?php 
     /*Template Name: Find A Hotel */
+    $GLOBALS['ROSEWOOD']['boby_class'] = "r_t2a en";
      get_header('secondary');
 ?>
 
