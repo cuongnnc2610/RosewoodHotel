@@ -1,7 +1,7 @@
 <?php 
     /*Template Name: Find A Hotel */
     $GLOBALS['ROSEWOOD']['boby_class'] = "r_t2a en";
-     get_header('secondary');
+    get_header('secondary');
 ?>
 
 <div class="rw-main-container container">

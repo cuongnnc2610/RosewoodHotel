@@ -1,8 +1,7 @@
 <?php 
     /*Template Name: Map View */
-    $GLOBALS['ROSEWOOD'] = array();
     $GLOBALS['ROSEWOOD']['boby_class'] = "r_t2b en";
-     get_header('mapview');
+    get_header('secondary');
 ?> 
 <div class="rw-main-container container" id="content">
     <nav class="bolder">

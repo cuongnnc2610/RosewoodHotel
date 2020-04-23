@@ -1,7 +1,7 @@
 <?php 
     /*Template Name: Culture */
     $GLOBALS['ROSEWOOD']['boby_class'] = "t21 en";
-     get_header('secondary');
+    get_header('secondary');
 ?>
 <div role="main" class="container fixed cs">
 	<nav class="secondary">
