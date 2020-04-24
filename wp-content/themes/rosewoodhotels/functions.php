@@ -39,12 +39,6 @@ function load_scripts()
     wp_register_script('respond', get_template_directory_uri() . '/files/rosewood_hotels_and_resorts/js/respond.min.js', array(), 1, 1, 1);
     wp_enqueue_script('respond');
 
-    /*wp_register_script('plugins-min', get_template_directory_uri() . '/files/rosewood_hotels_and_resorts/js/plugins.min.js', array(), 1, 1, 1);
-    wp_enqueue_script('plugins-min');
-
-    wp_register_script('all-min', get_template_directory_uri() . '/files/rosewood_hotels_and_resorts/group/js/all.min.js', array(), 1, 1, 1);
-    wp_enqueue_script('all-min');*/
-
 
 }
 add_action('wp_enqueue_scripts', 'load_scripts');
@@ -68,3 +62,82 @@ function wpse_100726_extra_atts( $atts, $item, $args )
     $atts['data-dropdown'] = 'true';
     return $atts;
 }
+
+/*function press_taxonomy()
+{
+    $args = array(
+        'labels' => array(
+            'name' => 'Years',
+            'singular_name' => 'Year'
+        ),
+        'hierarchical' => true,
+        'public' => true,
+        'rewrite'=> array( 'slug' => 'press' ),
+    );
+    register_taxonomy('years', array('presses'), $args);
+
+}
+add_action('init', 'press_taxonomy');*/
+
+//Add Press CPT
+function press_post_type()
+{
+	$args = array(
+		'labels' => array(
+			'name' => 'Presses',
+			'singular_name' => 'Press'
+		),
+		//'taxonomies' => array( 'years' ),
+		'hierarchical' => false,
+		'public' => true,
+		'show_ui' => true,
+		'show_in_menu' => true,
+        'show_in_nav_menus' => true,
+        'show_in_admin_bar' => true,
+		'has_archive' => true,
+		'publicly_queryable' => true,
+		'menu_icon' => 'dashicons-welcome-write-blog',
+		'supports' => array('title', 'editor', 'thumbnail', 'custom-fields'),
+		/*'rewrite' => array
+            (
+                'slug' => 'media/press',
+                'with_front' => false
+
+            ),*/
+
+	);
+	register_post_type('presses', $args);
+}
+add_action('init', 'press_post_type');
+
+//Rewrite URL of post_type = presses
+/*add_filter('post_type_link', 'year_term_permalink', 10, 4);
+function year_term_permalink($post_link, $post, $leavename, $sample)
+{
+    if ( false !== strpos( $post_link, '%years%' ) ) {
+        //$year_letter = get_the_terms( $post->ID, 'years' );
+        $year = get_the_date( "Y", $post->ID );
+        $post_link = str_replace( '%years%', $year, $post_link );
+    }
+    return $post_link;
+}*/
+
+//Get list of years when presses have been published
+function get_presses_years_array() {
+    global $wpdb;
+    $result = array();
+    $post_type = 'presses';
+    $years = $wpdb->get_results(
+        $wpdb->prepare(
+            "SELECT YEAR(post_date) FROM {$wpdb->posts} WHERE post_status = 'publish' AND wp_posts.post_type = '%s' GROUP BY YEAR(post_date) DESC", $post_type
+        ),
+        ARRAY_N
+    );
+    if ( is_array( $years ) && count( $years ) > 0 ) {
+        foreach ( $years as $year ) {
+            $result[] = $year[0];
+        }
+    }
+    return $result;
+}
+
