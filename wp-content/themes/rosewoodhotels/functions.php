@@ -9,6 +9,9 @@ function load_stylesheets()
 
 	wp_register_style('all', get_template_directory_uri() . '/files/rosewood_hotels_and_resorts/group/css/all.css', array(), 1, 'all');
 	wp_enqueue_style('all');
+
+    wp_register_style('_r_t3e', get_template_directory_uri() . '/files/rw_hotels_and_resorts/css/maps/main/_r_t3e.less', array(), 1, 'all');
+    wp_enqueue_style('_r_t3e');
     
     wp_register_style('font', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css', array(), 1, 'all');
     wp_enqueue_style('font');
