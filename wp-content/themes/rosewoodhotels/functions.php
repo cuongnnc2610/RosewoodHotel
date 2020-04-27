@@ -144,3 +144,18 @@ function get_presses_years_array() {
     return $result;
 }
 
+//Add Font size select option in Wysiwyg Editor
+function scanwp_buttons( $buttons ) {
+    
+    array_unshift( $buttons, 'fontsizeselect' ); 
+    return $buttons;
+  }
+add_filter( 'mce_buttons_2', 'scanwp_buttons' );
+
+function debug_to_console($data) {
+    $output = $data;
+    if (is_array($output))
+        $output = implode(',', $output);
+
+    echo "<script>console.log('Debug Objects: " . $output . "' );</script>";
+}

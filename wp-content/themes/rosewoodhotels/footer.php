@@ -380,6 +380,10 @@
         </div>-->
         <?php wp_footer();?>
         <script type="text/javascript">
+            srfp_options.locale = 'en-US';
+            var srfp_widget = new srfp.widget(srfp_options);
+        </script>
+        <script type="text/javascript">
             $(document).ready(function(){
                 /* Top Bar Menu */
                 $( "ul.first-level" ).find( "ul" ).addClass("header-menu second-level");

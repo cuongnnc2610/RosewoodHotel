@@ -125,7 +125,7 @@
 	<?php $destinations = get_field('destinations');?>
 
 	<div class="hidden destination-list">
-		<?php 
+		<!--<?php /*
 			foreach( $destinations as $destination ):
 				$location = $destination['location'];
 				$name = $destination['name'];
@@ -133,7 +133,24 @@
 				$region = $destination['region'];
 		?>
 				<div class="destination-item" data-book-url="<?php echo $link;?>" data-label="<?php echo $location;?>" data-desc="<?php echo $name;?>" data-region="<?php echo $region;?>"></div>
-		<?php endforeach;?>
+		<?php endforeach;*/?>-->
+		<?php 
+			while( have_rows('destinations') ): the_row();
+				$region = get_sub_field('region');
+				while( have_rows('countries') ): the_row();
+					while( have_rows('hotels') ): the_row();
+						while( have_rows('information') ): the_row();
+							$link = get_sub_field('link');
+							$location = get_sub_field('location');
+							$name = get_sub_field('name');
+		?>
+		<div class="destination-item" data-book-url="<?php echo $link;?>" data-label="<?php echo $location;?>" data-desc="<?php echo $name;?>" data-region="<?php echo $region;?>"></div>
+		<?php 
+						endwhile;
+					endwhile;
+				endwhile;
+			endwhile;
+		?>
 		
 	</div>
 

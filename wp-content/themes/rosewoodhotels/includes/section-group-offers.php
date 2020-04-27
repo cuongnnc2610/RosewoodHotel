@@ -1,5 +1,5 @@
 <?php 
-    /*Template Name: Offers Child Pages */
+    /*Template Name: Group Offers*/
     $GLOBALS['ROSEWOOD']['boby_class'] = "r_t3b en";
     get_header('secondary');
 ?>
@@ -7,44 +7,27 @@
 	<section class="intro-block-details">
 		<div class="hero-image-wrapper owl-carousel owl-theme image-description image-description--right">
 			<?php 
-				while( have_rows('images') ): the_row();		
+				while( have_rows('carousel_images') ): the_row();
 					$image = get_sub_field('image')['url'];
 			?>
-			<div class="hero-image" style="background-image:url('<?php echo $image;?>');"></div>
+			<div class="hero-image" style="background-image:url('<?php echo $image;?>?mw=1280');"></div>
 			<?php endwhile;?>
 		</div>
-		<?php 
-			global $wp;
-			$current_url = home_url( add_query_arg( array(), $wp->request ) ) . "/";
-			$title = "";
-			$full_content = "";
-			while( have_rows('pages', 354) ): the_row();
-				while( have_rows('page') ): the_row();	
-					$link = get_sub_field('link');
-					if (strcmp($current_url, $link) == 0) {
-						$title = get_sub_field('title');
-						$full_content = get_sub_field('full_content');	
-						break;						
-					}		
-				endwhile;		
-			endwhile;
-		?>
 		<div class="content" id="content">
+			<?php 
+				$title = get_field('title');
+				$description = get_field('description');
+			?>
 			<h1 class="title-deco"><?php echo $title;?></h1>
-			<?php echo $full_content;?>
+			<?php echo $description;?>
 		</div>
 	</section>
-	<?php 
-		$offer_container = get_field('offer_container');
-		if ($offer_container['title'] != ""): 
-	?>
 	<section class="offer-container">
-		<h2 class="bold title-h3"><?php echo $offer_container['title'];?></h2>
 		<div class="shuffle-filter">
 			<ul role="tablist">
 				<?php 
-					$action_name = $offer_container['action_name'];
-					$all = $offer_container['all'];
+					$action_name = get_field('action_name');
+					$all = get_field('all');
 					//$idAll = str_replace(' ', '', $all);
 					$idAll = md5($all);
 					$numOfRegions = count(get_field('destinations', 70));
@@ -65,8 +48,8 @@
 		<section class="card-listing shuffle-container">
 			<div class="content">
 				<?php 
-					$action_name = $offer_container['action_name'];
-					$all = $offer_container['all'];
+					$action_name = get_field('action_name');
+					$all = get_field('all');
 					//$idAll = str_replace(' ', '', $all);
 					$idAll = md5($all);
 					while( have_rows('destinations', 70) ): the_row();
@@ -136,31 +119,23 @@
 			</div>
 		</section>
 		<div class="empty">
+
 			<div class="content">
-				<p><?php echo $offer_container['empty_content'];?></p>
-				<a href="#" class="button border dynamic-width"><?php echo $offer_container['empty_button_text'];?></a>
+				<p><?php echo get_field('empty_content');?></p>
+				<a href="#" class="button border dynamic-width"><?php echo get_field('empty_button_text');?></a>
 			</div>
-		</div>	
+		</div>
 		<div class="extra-border"></div>
 	</section>
-	<?php endif;?>
-	<?php 
-		$pages = get_field('pages', 354);
-		$title = $pages['title'];
-		$action_name_child_page = $pages['action_name_child_page'];
-	?>
 	<section class="discover-rw-section">
-		<h2 class="title-deco title-h1 h1"><?php echo $title;?></h2>
 		<div class="row" data-index="0">
 			<!--3-->
 			<?php 
-				while( have_rows('pages', 354) ): the_row();
-					while( have_rows('page') ): the_row();	
-						$link = get_sub_field('link');
-						if (strcmp($current_url, $link) == 0) continue;
-						$image = get_sub_field('image')['url'];
-						$title = get_sub_field('title');
-						$content = get_sub_field('content');
+				while( have_rows('pages') ): the_row();	
+					$link = get_sub_field('link');
+					$image = get_sub_field('image')['url'];
+					$title = get_sub_field('title');
+					$content = get_sub_field('content');
 						
 			?>
 			<div class="cell haveImg">
@@ -177,29 +152,46 @@
 					<h2 class="content_heading bold title-h2"><?php echo $title;?></h2>
 					<p class="content_description">
 						<p><?php echo $content;?></p>
-						<a href="<?php echo $link;?>" class="button transparent-black-btn content_url" aria-label="<?php echo $action_name_child_page;?> - <?php echo $title;?>"><?php echo $action_name_child_page;?></a>
+						<a href="<?php echo $link;?>" class="button transparent-black-btn content_url" aria-label="<?php echo get_field('action_name');?> - <?php echo $title;?>"><?php echo get_field('action_name');?></a>
 					</p>
 					
 				</div>
 			</div>
 			<?php 
-						break;
-					endwhile;
+					break;
 				endwhile;
 			?>
+			<!--<div class="cell haveImg">
+				<div class="img-wrap" style="background-image:url('https://www.rosewoodhotels.com/-/media/Images/Rosewood_Hotels_and_Resorts/Group/meetings_and_events/group-offers/Rosewood_Mayakoba_920x600.ashx');"></div>
+				<a href="#" class="arrow-prev arrow-button" aria-label="Go to Previous Slide">
+					<div class="arrow"></div>
+				</a>
+				<a href="#" class="arrow-next arrow-button" aria-label="Go to Next Slide">
+					<div class="arrow"></div>
+				</a>
+			</div>
+			<div class="cell">
+				<div class="text-wrap">
+					<h2 class="content_heading bold title-h2">Rosewood Rest Assured</h2>
+					<p class="content_description">Book with the freedom to change.<br /></p>
+					<a href="rosewood-rest-assured.html" class="button transparent-black-btn content_url" aria-label="Learn More - Rosewood Rest Assured">Learn More</a>
+				</div>
+			</div>-->
 		</div>
 		<div class="content">
 			<div class="three-col">
 				<?php 
-					while( have_rows('pages', 354) ): the_row();
-						$count = 1;
-						while( have_rows('page') ): the_row();	
-							$link = get_sub_field('link');
-							if (strcmp($current_url, $link) == 0) continue;
-							$image = get_sub_field('image')['url'];
-							$title = get_sub_field('title');
-							$content = get_sub_field('content');
-							
+					while( have_rows('pages') ): the_row();	
+					endwhile;
+				?>
+				<?php 
+					$count = 1;
+					debug_to_console(count(get_field('pages')));
+					while( have_rows('pages') ): the_row();	
+						$link = get_sub_field('link');
+						$image = get_sub_field('image')['url'];
+						$title = get_sub_field('title');
+						$content = get_sub_field('content');
 				?>
 				<?php if ($count == 1): ?>
 				<div class="block active">
@@ -210,14 +202,13 @@
 						<a href="#" data-img="<?php echo $image;?>" data-heading="<?php echo $title;?>" data-description="&lt;p&gt;<?php echo $content;?>&lt;/p&gt;&#xA;&lt;br /&gt;" data-url="<?php echo $link;?>" aria-label="<?php echo $title;?> - <?php echo $count;?>/3"><?php echo $title;?></a>
 					</div>
 				<?php 
-							$count++;
-						endwhile;
+
+						$count++;
 					endwhile;
 				?>
-				</div>
 			</div>
-			<div class="extra-border"></div>
 		</div>
+		<div class="extra-border"></div>
 	</section>
 </div>
 <?php get_footer();?>
