@@ -94,7 +94,7 @@ class ACF {
 			'enqueue_datetimepicker'	=> true,
 			'select2_version'			=> 4,
 			'row_index_offset'			=> 1,
-			'remove_wp_meta_box'		=> true
+			'remove_wp_meta_box'		=> false
 		);
 		
 		// Include utility functions.
