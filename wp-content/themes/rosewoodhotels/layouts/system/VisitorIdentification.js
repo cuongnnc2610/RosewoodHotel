@@ -38,7 +38,7 @@ function placeCheckerRequest() {
 }
 
 function placeCssAspxRequest() {
-    st1 = '/layouts/system/Visitor';
+    st1 = '/wordpress/wp-content/themes/rosewoodhotels/layouts/system/Visitor';
     st2 = 'Identification';
     st3 = 'CSS.aspx?' + new Date().getTime();
 
